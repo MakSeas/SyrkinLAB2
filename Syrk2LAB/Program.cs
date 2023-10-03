@@ -71,13 +71,13 @@ namespace Syrk2LAB
                     break;
                 case 1:
                     {
-                        textWriter = SetEncoding(path, Encoding.UTF8);
+                        textWriter = SetEncoding(path, Encoding.GetEncoding(1251));
                         // textWriter = SetEncoding(path, Encoding.Win1251);
                     }
                     break;
                 case 2:
                     {
-                        textWriter = SetEncoding(path, Encoding.UTF8);
+                        textWriter = SetEncoding(path, Encoding.GetEncoding(866));
                         // textWriter = SetEncoding(path, Encoding.DOC866);
                     }
                     break;
